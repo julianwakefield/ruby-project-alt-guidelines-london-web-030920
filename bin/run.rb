@@ -1,3 +1,5 @@
-require_relative '../config/environment'
 
-puts "hello world"
+require_relative '../config/environment'
+cli = Application.new
+
+cli.run
